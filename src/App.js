@@ -1,10 +1,10 @@
 import React from 'react'
-import MainCard from './components/MainCard'
+import ForgotPassword from './components/ForgotPassword'
 
 function App() {
   return (
     <div>
-      <MainCard />
+      <ForgotPassword />
     </div>
   )
 }

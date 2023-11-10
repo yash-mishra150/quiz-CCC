@@ -68,6 +68,13 @@ body {
   height: 230.32px;
   flex-shrink: 0;
 }
+.MainPageF {
+  position: relative;
+  top: -330px;
+  left: 922px;
+  width: 83px;
+  height: 106.22px;
+}
 
 .hackazone {
   position: relative;
@@ -78,7 +85,21 @@ body {
   top: -330px;
 }
 
+.Password {
+  position: relative;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  left: 620px;
+  top: -330px;
+}
 .blue {
+  display: inline;
+  color: #1178f2;
+}
+.Forgot {
   display: inline;
   color: #1178f2;
 }
@@ -92,6 +113,18 @@ body {
   top: -250px;
   width: 400px;
   text-align: center;
+}
+
+.text3 {
+  position: relative;
+  font-family: poppins;
+  width: 800px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  left: 620px;
+  top: -320px;
 }
 
 .text2 {
@@ -149,8 +182,9 @@ body {
 
 .Human {
   position: relative;
-  top: -730px;
-  left: 133px;
+  top: -640px;
+  left: 180px;
+  height: 510px;
 }
 .btn-secondry {
   position: relative;
@@ -197,7 +231,78 @@ body {
   background-color: #fff;
 }
 
+@media screen and (width <= 400px) {
+  .Image {
+    height: 0px;
+    width: 0px;
+  }
+  .Image2 {
+    height: 0px;
+    width: 0px;
+  }
+  .BlueRectangle {
+    height: 14.375rem;
+    width: 28.125rem;
+  }
+  .from {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-@media screen {
-  
+  .Human {
+    top: -14.0625rem;
+    left: 7.0625rem;
+    height: 14.0625rem;
+  }
+  .MainPage {
+    height: 10.625rem;
+    top: 15.625rem;
+    left: 7.0625rem;
+  }
+  .hackazone {
+    font-size: 2rem;
+    top: 15.3125rem;
+    left: 5.3125rem;
+  }
+  .text {
+    top: 16.5625rem;
+    left: 3.125rem;
+    font-size: 1rem;
+    width: 18.75rem;
+    line-height: 1rem;
+  }
+  .text2 {
+    top: 17.1875rem;
+    left: 3.125rem;
+    font-size: 1rem;
+    width: 18.75rem;
+    line-height: 1rem;
+  }
+
+  .btn-primary {
+    height: 3.125rem;
+    width: 22.8125rem;
+    top: 18.75rem;
+    left: 0.9375rem;
+    font-size: 1rem;
+  }
+  .line {
+    top: 18.25rem;
+    left: 1.25rem;
+    width: 21.875rem;
+  }
+  .or {
+    top: 18.75rem;
+    left: 11.875rem;
+    font-size: 0.6875rem;
+    width: 1.125rem;
+    padding-left: 0.125rem;
+  }
+  .btn-secondry {
+    height: 3.125rem;
+    width: 22.8125rem;
+    top: 18.75rem;
+    left: 0.9375rem;
+    font-size: 1rem;
+  }
 }
