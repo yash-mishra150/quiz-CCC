@@ -6,6 +6,7 @@ import MainPage from "./images/MainPage.svg";
 import Human from "./images/Human2.svg";
 import MainMobile from './images/MainPageMobile.svg'
 
+
 function ForgotPassword() {
   const [email, setEmail] = useState("");
   const [isValidEmail, setIsValidEmail] = useState(true);
@@ -75,10 +76,6 @@ function ForgotPassword() {
             <section>
               <img src={Human} alt="ImageNA" className="Humanftp" />
             </section>
-
-            <button type="submit" class="btn-ftp" disabled={BtnDisabled}>
-              Send
-            </button>
 
             <div className="End" />
           </div>

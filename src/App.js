@@ -1,10 +1,10 @@
 import React from 'react'
-import VerifyOTP from './components/VerifyOTP'
+import NewPassword from './components/NewPassword'
 
 function App() {
   return (
     <div>
-      <VerifyOTP />
+      <NewPassword />
     </div>
   )
 }
