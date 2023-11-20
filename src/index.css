@@ -560,14 +560,13 @@ form .Link:active {
   width: 0px;
   height: 0px;
 }
-.text {
+.hack {
   position: relative;
   font-family: Trade Winds;
   font-size: 40px;
   line-height: 40px;
   top: -30px;
-  left: -45px;
-  width: 400px;
+  left: 15px;
 }
 .nobody {
   width: 0px;
@@ -580,7 +579,7 @@ form .Link:active {
   font-size: 40px;
   font-weight: 400;
   top: -40px;
-  left: 143px;
+  left: 165px;
   line-height: 40px;
   color: #fff;
 }
@@ -659,7 +658,7 @@ form .Link:active {
   font-weight: 400;
   line-height: 24px;
   padding: 20px;
-  left: 46px;
+  left: -14px;
   width: 308px;
   text-align: left;
   height: 30px;
@@ -675,7 +674,7 @@ form .Link:active {
   font-weight: 400;
   line-height: 24px;
   padding: 20px;
-  left: 46px;
+  left: -14px;
   width: 308px;
   text-align: left;
   height: 200px;

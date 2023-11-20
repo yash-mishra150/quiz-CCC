@@ -12,7 +12,7 @@ function Quiz() {
   const [isbars, setisbars] = useState("bars");
   const [istext, setistext] = useState("Hide");
   const [iscss, setiscss] = useState("hide");
-  const [isbody, setisbody] = useState("text");
+  const [isbody, setisbody] = useState("hack");
   const [istexty, setistexty] = useState("white");
   const [iscontainer, setiscontainer] = useState("section1");
   const [isContainer, setisContainer] = useState("section1");
@@ -41,7 +41,7 @@ function Quiz() {
     setisbars("bars");
     setistext("Hide");
     setiscss("hide");
-    setisbody("text");
+    setisbody("hack");
     setistexty("white");
   };
   const Handle = () => {

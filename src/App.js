@@ -3,10 +3,8 @@ import Quiz from './components/Quiz'
 
 function App() {
   return (
-    <div>
-      <Quiz />
-    </div>
-  )
+    <Quiz />
+  );
 }
 
 export default App
