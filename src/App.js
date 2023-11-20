@@ -1,10 +1,10 @@
 import React from 'react'
-import NewPassword from './components/NewPassword'
+import Quiz from './components/Quiz'
 
 function App() {
   return (
     <div>
-      <NewPassword />
+      <Quiz />
     </div>
   )
 }

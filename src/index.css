@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500&family=Roboto:wght@300&family=Secular+One&family=Trade+Winds&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&family=Rubik+Glitch&family=Secular+One&family=Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&family=Rubik+Glitch&family=Secular+One&family=Sofia+Sans:wght@300;400&family=Trade+Winds&display=swap");
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
 }
 
 body {
@@ -418,7 +421,7 @@ form .Link:active {
   font-family: poppins;
   transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input2{
+.input2 {
   position: relative;
   top: -200px;
   left: 620px;
@@ -446,7 +449,13 @@ form .Link:active {
   font-size: 16px;
   color: red;
 }
-
+.Human4 {
+  position: relative;
+  width: 122px;
+  height: 156.14px;
+  top: -65px;
+  left: 110px;
+}
 .Humanftp {
   position: relative;
   top: -470px;
@@ -482,6 +491,218 @@ form .Link:active {
   height: 0px;
   width: 0px;
 }
+.container {
+  width: 350px;
+  height: 800px;
+  background-color: #1178f2;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.whitebox {
+  position: relative;
+  left: -20px;
+  top: -20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.bars {
+  position: relative;
+  left: 35px;
+  top: 38px;
+}
+.whitebars {
+  position: relative;
+  top: -10px;
+  left: 15px;
+  z-index: 1;
+}
+.nobars {
+  width: 0px;
+  height: 0px;
+}
+.hide {
+  position: relative;
+  width: 33px;
+  height: 17px;
+  top: -212px;
+  left: 23px;
+  color: #1178f2;
+  font-family: Sofia Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.show {
+  position: relative;
+  width: 33px;
+  height: 17px;
+  top: 25px;
+  left: 20px;
+  color: #fff;
+  font-family: Sofia Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.hidden {
+  width: 80px;
+  height: 800px;
+  background-color: #1178f2;
+  transition: 0.4s;
+}
+.nobox {
+  width: 0px;
+  height: 0px;
+}
+.nohuman {
+  width: 0px;
+  height: 0px;
+}
+.text {
+  position: relative;
+  font-family: Trade Winds;
+  font-size: 40px;
+  line-height: 40px;
+  top: -30px;
+  left: -45px;
+  width: 400px;
+}
+.nobody {
+  width: 0px;
+  height: 0px;
+  display: none;
+}
+.white {
+  position: relative;
+  font-family: Trade Winds;
+  font-size: 40px;
+  font-weight: 400;
+  top: -40px;
+  left: 143px;
+  line-height: 40px;
+  color: #fff;
+}
+.c1{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 4px;
+  top: 5px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c2{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 81px;
+  top: -50px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c3{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 161px;
+  top: -105px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c4{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 239px;
+  top: -160px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c5{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 3px;
+  top: -140px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.nocircles{
+  display: none;
+}
+.section1 {
+  position: relative;
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px;
+  left: 46px;
+  width: 308px;
+  text-align: left;
+  height: 30px;
+  color: #fff;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #1178f2;
+  transition: 0.2s;
+}
+.sectionq{
+  position: relative;
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px;
+  left: 46px;
+  width: 308px;
+  text-align: left;
+  height: 200px;
+  color: #1178f2;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #fff;
+  transition: 0.1s;
+}
+.section1:active{
+  color: #1178f2;
+  background-color: #fff;
+}
+.Arrow{
+  position: relative;
+  left: 270px;
+  top: -27px;
+}
+.Arrow2{
+  position: relative;
+  left: 270px;
+  top: -27px;
+  transform: rotate(90deg);
+}
+.Arrow:hover{
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
 @media screen and (width <= 400px) {
   .Image {
     height: 0px;
@@ -501,7 +722,7 @@ form .Link:active {
     top: 21.25rem;
     left: 1.875rem;
   }
-  form button{
+  form button {
     width: 21.875rem;
     left: -6.25rem;
     top: 4.375rem;
