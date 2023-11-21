@@ -1,10 +1,10 @@
 import React from 'react'
-import MainCard from './components/MainCard'
+import Quiz from './components/Quiz'
 
 
 function App() {
   return (
-    <MainCard/>
+    <Quiz />
   );
 }
 
