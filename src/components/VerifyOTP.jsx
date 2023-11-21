@@ -5,9 +5,10 @@ import MainPage from "./images/MainPage.svg";
 import { Link } from "react-router-dom";
 import MainMobile from "./images/MainPageMobile.svg";
 import Human from './images/Human3.svg'
+
 function VerifyOTP() {
   return (
-    <section className="">
+    <section className="form">
       <div className="BlueRectangle">
         <img src={MainMobile} alt="ImageNA" className="hftp" />
         <img src={Logo} alt="ImageNA" className="Image" />
@@ -22,7 +23,7 @@ function VerifyOTP() {
         <div className="text3">
           Please Enter The Four Digit Code sent to your Email
         </div>
-        <div className="container">
+        <div>
           
           <form>
           

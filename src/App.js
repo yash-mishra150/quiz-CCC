@@ -1,9 +1,10 @@
 import React from 'react'
-import Quiz from './components/Quiz'
+import MainCard from './components/MainCard'
+
 
 function App() {
   return (
-    <Quiz />
+    <MainCard/>
   );
 }
 
