@@ -700,31 +700,11 @@ form .Link:active {
   left: -14px;
   width: 308px;
   text-align: left;
-  height: 30px;
+  height: 145px;
   color: #fff;
   border-radius: 0px 20px 0px 20px;
-  background-color: #1178f2;
+  background-color: #fff;
   transition: 0.2s;
-}
-.sectionq{
-  position: relative;
-  font-family: Sofia Sans;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-  padding: 20px;
-  left: -14px;
-  width: 308px;
-  text-align: left;
-  height: 200px;
-  color: #1178f2;
-  border-radius: 0px 20px 0px 20px;
-  background-color: #fff;
-  transition: 0.1s;
-}
-.section1:active{
-  color: #1178f2;
-  background-color: #fff;
 }
 .Arrow{
   position: relative;
