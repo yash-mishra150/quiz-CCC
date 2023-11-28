@@ -9,7 +9,7 @@
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .BlueRectangle {
@@ -85,7 +85,7 @@ body {
   font-size: 48px;
   font-weight: 400;
   left: 830px;
-  top: -330px;
+  top: -530px;
 }
 
 .Password {
@@ -97,9 +97,10 @@ body {
   width: 600px;
   letter-spacing: 0em;
   left: 620px;
-  top: -330px;
+  top: -620px;
 }
 .blue {
+  font-family: Trade Winds;
   display: inline;
   color: #1178f2;
 }
@@ -110,7 +111,7 @@ body {
 
 .End {
   position: relative;
-  top: 20px;
+  top: -320px;
   left: 630px;
   height: 2px;
   width: 680px;
@@ -122,7 +123,7 @@ body {
   font-weight: 400;
   position: relative;
   left: 800px;
-  top: -250px;
+  top: -500px;
   width: 400px;
   text-align: center;
 }
@@ -136,13 +137,13 @@ body {
   line-height: 19px;
   letter-spacing: 0em;
   left: 620px;
-  top: -320px;
+  top: -605px;
 }
 
 .text2 {
   position: relative;
   left: 730px;
-  top: -230px;
+  top: -490px;
   font-family: Poppins;
   font-size: 17px;
   font-weight: 400;
@@ -150,12 +151,27 @@ body {
   width: 550px;
   text-align: center;
 }
-
+.MainLS{
+  width: 600px;
+  height: 900px;
+}
+.MainOTP{
+  width: 883px;
+  height: 900px;
+}
+.MainNP{
+  width: 883px;
+  height: 900px;
+}
+.MainFP{
+  width: 883px;
+  height: 900px;
+}
 .btn-primary {
   position: relative;
   width: 640px;
   height: 56px;
-  top: -175px;
+  top: -400px;
   left: 675px;
   padding: 8px;
   border-radius: 16px;
@@ -191,7 +207,7 @@ form h4 {
 form {
   position: relative;
   left: 630px;
-  top: -260px;
+  top: -550px;
 }
 form .input-field {
   display: flex;
@@ -215,7 +231,8 @@ form .input-field {
 form button {
   width: 640px;
   height: 56px;
-  top: 60px;
+  left: -100px;
+  top: 100px;
   padding: 8px;
   font-family: poppins;
   font-size: 17px;
@@ -233,6 +250,8 @@ form button:hover {
   transform: scale(1.0156);
 }
 form button:active {
+  background: #fff;
+  color: #1178f2;
   transform: scale(1);
 }
 form .Link {
@@ -247,7 +266,7 @@ form .Link:active {
   position: relative;
   width: 695px;
   height: 56px;
-  top: -130px;
+  top: -420px;
   left: 620px;
   padding: 8px;
   border-radius: 16px;
@@ -279,7 +298,7 @@ form .Link:active {
   height: 2px;
   width: 626px;
   position: relative;
-  top: -183px;
+  top: -408px;
   left: 680px;
   background-color: black;
 }
@@ -287,22 +306,22 @@ form .Link:active {
   height: 2px;
   width: 635px;
   position: relative;
-  top: -40px;
+  top: -300px;
   left: 635px;
   background-color: grey;
 }
 
 .Human {
   position: relative;
-  top: -640px;
-  left: 180px;
+  top: -915px;
+  left: 190px;
   height: 510px;
 }
 .btn-secondry {
   position: relative;
   width: 640px;
   height: 56px;
-  top: -170px;
+  top: -395px;
   left: 675px;
   padding: 8px;
   border-radius: 16px;
@@ -332,13 +351,13 @@ form .Link:active {
 .or {
   margin: 0px;
   position: relative;
-  top: -170px;
-  left: 985px;
+  top: -395px;
+  left: 986px;
   font-family: poppins;
   font-size: 16px;
   font-weight: 700;
   z-index: 1;
-  width: 26px;
+  width: 24px;
   align-items: center;
   background-color: #fff;
 }
@@ -346,7 +365,7 @@ form .Link:active {
   position: relative;
   width: 591px;
   height: 350px;
-  top: -500px;
+  top: -800px;
   left: 28px;
 }
 .input-group {
@@ -361,13 +380,20 @@ form .Link:active {
   font-family: poppins;
   padding: 1rem;
   border: 1px solid #9e9e9e;
-  border-radius: 10px;
+  position: relative;
+  top: -550px;
+  left: 620px;
+  width: 660px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 20px;
   transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .label {
   position: absolute;
-  top: -205px;
+  top: -536px;
   left: 650px;
   width: 149px;
   color: #d4d4d4;
@@ -377,7 +403,7 @@ form .Link:active {
 }
 .input {
   position: relative;
-  top: -220px;
+  top: -550px;
   left: 620px;
   width: 660px;
   border-radius: 20px;
@@ -388,7 +414,25 @@ form .Link:active {
 .input:focus {
   border: 1px solid var(--primary);
 }
-
+.btnftp{
+  position: relative;
+  width: 695px;
+  height: 56px;
+  top: -420px;
+  left: -75px;
+  padding: 8px;
+  border-radius: 16px;
+  gap: 8px;
+  background: #1178f2;
+  font-family: poppins;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 29px;
+  text-align: center;
+  border-color: #1178f2;
+  transition: transform 1s ease-in-out;
+}
 .input:is(:focus, :valid) ~ label {
   transform: translateY(-90%) scale(0.7);
   background-color: #fff;
@@ -413,7 +457,7 @@ form .Link:active {
 
 .label2 {
   position: absolute;
-  top: -127px;
+  top: -458px;
   left: 650px;
   color: #d4d4d4;
   width: 149px;
@@ -423,7 +467,7 @@ form .Link:active {
 }
 .input2 {
   position: relative;
-  top: -200px;
+  top: -530px;
   left: 620px;
   width: 660px;
   border-radius: 20px;
@@ -443,7 +487,7 @@ form .Link:active {
 }
 .error-message {
   position: relative;
-  top: -215px;
+  top: -545px;
   left: 640px;
   font-family: poppins;
   font-size: 16px;
@@ -458,10 +502,10 @@ form .Link:active {
 }
 .Humanftp {
   position: relative;
-  top: -470px;
-  left: 80px;
+  top: -780px;
+  left: 140px;
   height: 400px;
-  width: 485px;
+  width: 400px;
 }
 
 .error {
@@ -471,7 +515,7 @@ form .Link:active {
   padding: 1rem;
   border: 1px solid red;
   position: relative;
-  top: -220px;
+  top: -550px;
   left: 620px;
   width: 660px;
   border-radius: 20px;
@@ -687,6 +731,97 @@ form .Link:active {
   padding-top: 16px;
   transition: 0.3s;
 }
+.c9{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 3px;
+  top: -290px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c10{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 82px;
+  top: -345px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c11{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 160px;
+  top: -400px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c12{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 239px;
+  top: -455px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c13{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 3px;
+  top: -440px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c14{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 82px;
+  top: -495px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
+.c15{
+  position: relative;
+  background-color: #1178f2;
+  color: #fff;
+  width: 56px;
+  text-align: center;
+  height: 40px;
+  border-radius: 200px;
+  left: 160px;
+  top: -550px;
+  padding-top: 16px;
+  transition: 0.3s;
+}
 .nocircles{
   display: none;
 }
@@ -700,7 +835,7 @@ form .Link:active {
   left: -14px;
   width: 308px;
   text-align: left;
-  height: 145px;
+  height: 300px;
   color: #fff;
   border-radius: 0px 20px 0px 20px;
   background-color: #fff;
@@ -730,27 +865,53 @@ form .Link:active {
     height: 0px;
     width: 0px;
   }
+  .MainLS{
+    width: 320px;
+    max-height: 800px;
+  }
+  .MainOTP{
+    width: 390px;
+    max-height: 1000px;
+    overflow: hidden;
+  }
+  .MainNP{
+    width: 390px;
+    max-height: 1200px;
+    overflow: hidden;
+  }
+  .MainFP{
+    width: 390px;
+    max-height: 1000px;
+    overflow: hidden;
+  }
   .Human2 {
     width: 19.52rem;
     height: 13.875rem;
-    top: -14.375rem;
+    top: -26rem;
     left: 3.75rem;
   }
   form {
-    top: 21.25rem;
+    top: 12rem;
     left: 1.875rem;
+  }
+  .End{
+    top: 320px;
+    left: 30px;
+    width: 325px;
   }
   form button {
     width: 21.875rem;
-    left: -6.25rem;
+    left: -1rem;
     top: 4.375rem;
   }
   .BlueRectangle {
     height: 14.375rem;
-    width: 28.125rem;
+    width: 25rem;
   }
   .from {
     display: flex;
+    margin : auto;
+    overflow: hidden;
     flex-wrap: wrap;
   }
   .hftp {
@@ -761,7 +922,7 @@ form .Link:active {
     left: 0.625rem;
   }
   .Human {
-    top: -14.0625rem;
+    top: -28.3rem;
     left: 7.0625rem;
     height: 14.0625rem;
   }
@@ -770,7 +931,7 @@ form .Link:active {
     border-radius: 0px 0px 20px 0px;
   }
   .Humanftp {
-    top: -10.3125rem;
+    top: -20.24567rem;
     left: 5.625rem;
     height: 14rem;
     width: 13.4375rem;
@@ -804,7 +965,7 @@ form .Link:active {
     width: 0px;
   }
   .text3 {
-    top: 18.75rem;
+    top: 10rem;
     left: 1rem;
     font-family: Roboto;
     font-size: 0.75rem;
@@ -814,17 +975,17 @@ form .Link:active {
     text-align: left;
   }
   .Password {
-    top: 16.25rem;
+    top: 6rem;
     left: 01rem;
     font-size: 2rem;
   }
   .input {
-    top: 22.5rem;
+    top: 12rem;
     left: 1.25rem;
     width: 20rem;
   }
   .input2 {
-    top: 24.375rem;
+    top: 13rem;
     left: 1.25rem;
     width: 20rem;
   }
@@ -834,11 +995,11 @@ form .Link:active {
     width: 20rem;
   }
   .label {
-    top: 23.3125rem;
+    top: 10.3em;
     left: 2.5rem;
   }
   .label2 {
-    top: 28.9375rem;
+    top: 17.5rem;
     left: 2.5rem;
   }
   .error-message {
@@ -873,8 +1034,8 @@ form .Link:active {
     font-size: 1rem;
   }
   .btn-ftp {
-    top: 28.125rem;
-    left: 1.25rem;
+    top: 17rem;
+    left: 0.95rem;
     width: 22.5rem;
   }
 }

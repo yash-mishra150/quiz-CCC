@@ -68,6 +68,13 @@ function Quiz() {
             <div className="c6">6</div>
             <div className="c7">7</div>
             <div className="c8">8</div>
+            <div className="c9">9</div>
+            <div className="c10">10</div>
+            <div className="c11">11</div>
+            <div className="c12">12</div>
+            <div className="c13">13</div>
+            <div className="c14">14</div>
+            <div className="c15">15</div>
           </div>
         </div>
       </section>
