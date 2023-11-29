@@ -1,0 +1,324 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&family=Poppins:wght@300&display=swap');
+
+.body{
+    overflow: hidden;
+}
+.rem{
+    margin-left: 43px;
+    font-weight: 700;
+    position: absolute;
+}
+.fgp{
+    margin-left: 640px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    position: absolute;
+}
+label,input{
+    display: block;
+    border-color: solid black;
+   
+    
+}
+.button{
+    height: 56px;
+    width: 100%;
+    border-radius: 15px;
+    background: #1178F2;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+    margin-top: 30px;
+    
+}
+
+
+.first{
+    
+  
+    width: 25%;
+    height: 810px;
+    background-color: #1178F2;
+}
+.design{
+    position: absolute;
+    height: 810px;
+    margin-left: 33px;
+
+}
+.girl{
+    margin-top:220px;
+    margin-left:10px;
+    height: 350px;
+    width: 469px;
+    object-fit: contain;
+}
+.main{
+  
+    display: flex;
+}
+.logo{
+   display:flex;
+    width:100%;
+    height: 100%;
+    
+}
+.hck{
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+}
+.e{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.head{
+    padding-bottom: 10px;
+    height: 100px;
+}
+.sngup{
+    width: 392px;
+  height: 62px;
+top: 150px;
+left: 638px;
+margin-top:20px;
+margin-bottom: 20px;
+
+}
+.npm{
+    position: absolute;
+    
+}
+
+
+
+
+
+#username{
+    background: transparent;
+    width:750px;
+    border-radius: 20px;
+    height: 60px;
+ 
+    z-index: 1111;
+  
+    padding-left: 20px;
+    font-size: 15px;
+    
+    
+}
+#username:focus{
+    font-size: 15px;
+}
+
+.base{
+    margin: auto;
+    height: 400px;
+  
+}
+/* input:focus{
+    font-size: 18px;
+    padding-left: 10px;
+    outline:none
+} */
+
+.try{ position: relative;
+    font-size: 23px;
+    height: 100%;
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 15px;
+    margin-left:20px;
+    transform: translate(-1px,-13px) scale(0.88);
+    background-color: white;
+   z-index: 1111;
+   margin-bottom: 60px;
+ 
+}
+.try2{
+    position: relative;
+    font-size: 23px;
+    height: 100%;
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-left:40px;
+    transform: translate(-20px,-80px) scale(0.88);
+    background-color: white;
+   z-index: 1111;
+}
+.try3{
+    position: relative;
+    font-size: 23px;
+    height: 100%;
+    width: 110px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left:40px;
+    transform: translate(-20px,-80px) scale(0.88);
+    background-color: rgb(255, 255, 255);
+   z-index: 1111;
+   margin-bottom: 0px;
+   
+  
+}
+.try4{
+    position: relative;
+    font-size: 23px;
+    height: 100%;
+    width: 190px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    margin-left:40px;
+    transform: translate(-30px,-80px) scale(0.88);
+    background-color: white;
+   z-index: 1111;
+  
+}
+
+
+/* input:focus+.try,
+input:focus+.try2,
+input:focus+.try3,
+input:focus+.try4,
+{    background-color: white;
+    z-index: 1200;
+    
+    border-color: solid #1178F2;
+    color: #1178F2;
+    
+
+
+} */
+input:invalid{
+    border-color: solid rgb(255, 0, 0);
+
+}
+input{
+    border-color: solid black;
+    border-width: 3px;
+    color: #1178F2;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+.try+.try2+.try3+.try4{
+    box-sizing: border-box;
+    background-color: white;
+}
+.hr{
+    margin-top: 200px;
+    
+}
+span{
+    color: #1178F2;
+    margin-left: 10px;
+}
+
+.log{
+    text-align: center;
+}
+input:focus+.try,
+input:focus+.try2,
+input:focus+.try3,
+input:focus+.try4{
+    color: #1178F2;
+   
+    
+}
+input::after{
+    color: black;
+}
+.goto{
+    text-align: right;
+    margin-top: 30px;
+   margin-right: 40px;
+    color: #0021f7;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+    .body{
+        overflow:hidden;
+    }
+    .main {
+        flex-direction: column;
+        position: absolute;
+    }
+
+    .first {
+        width: 450px;
+        height: auto;
+    }
+
+    .design {
+        height: auto;
+        margin: 20px auto; 
+        opacity: 0;
+    }
+
+    .girl {
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 70%; 
+        height: auto;
+    }
+    .hr{
+        margin-top: 40px;
+
+    }
+    .hck{
+       
+        height: 70px;
+    width: 60px;
+        
+}
+.try{
+    transform: translate(-1px,-83px) ;
+    margin-bottom: 0px;
+
+}
+.base{
+    width:350px;
+}
+.fgp{
+    margin-left: 200px;
+   
+   
+}
+#username{
+    width: 300px;
+    position: relative;
+}
+.logo{
+    height: 90px;
+  
+    position: absolute;
+    transform: translate(-320px,-520px);
+    content:url("/src/components/images/Vector11.svg");
+    
+}
+
+    }
+
+

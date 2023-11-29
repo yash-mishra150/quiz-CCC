@@ -4,7 +4,8 @@ import Logo from "./images/ImageInBlue.svg";
 import Logo2 from "./images/ImageUpsideDown.svg";
 import MainPage from "./images/MainPage.svg";
 import Human from "./images/Human2.svg";
-import MainMobile from "./images/MainPageMobile.svg";
+import MainMobile from './images/MainPageMobile.svg'
+
 
 function ForgotPassword() {
   const [email, setEmail] = useState("");
@@ -35,15 +36,15 @@ function ForgotPassword() {
   };
 
   return (
-    <section className="MainFP">
+    <div>
       <section className="form">
         <div className="BlueRectangle">
-          <img src={MainMobile} alt="ImageNA" className="hftp" />
+        <img src={MainMobile} alt="ImageNA" className="hftp" />
           <img src={Logo} alt="ImageNA" className="Image" />
           <img src={Logo2} alt="ImageNA" className="Image2" />
           <img src={MainPage} alt="ImageNA" className="MainPageF" />
-        </div>
-        <div className="Password">
+
+          <div className="Password">
             Forgot<div className="Forgot"> Password</div>
           </div>
 
@@ -75,9 +76,12 @@ function ForgotPassword() {
             <section>
               <img src={Human} alt="ImageNA" className="Humanftp" />
             </section>
+
+            <div className="End" />
           </div>
+        </div>
       </section>
-    </section>
+    </div>
   );
 }
 
