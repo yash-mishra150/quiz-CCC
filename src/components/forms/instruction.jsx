@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import './instruction.css';
-import Vector1 from '../Images/Vector1.svg';
-import Vector2 from '../Images/Vector2.svg';
-import Vector3 from '../Images/Vector3.svg';
-import Vector4 from '../Images/Vector4.svg';
-import Vector5 from '../Images/Vector5.svg';
-import Vector7 from '../Images/Vector7.svg';
-import Vector8 from '../Images/Vector8.svg';
-import Vector9 from '../Images/Vector9.svg';
-import Vector10 from '../Images/Vector10.svg';
+import Vector1 from '../images/Vector1.svg';
+import Vector2 from '../images/Vector2.svg';
+import Vector3 from '../images/Vector3.svg';
+import Vector4 from '../images/Vector4.svg';
+import Vector5 from '../images/Vector5.svg';
+import Vector7 from '../images/Vector7.svg';
+import Vector8 from '../images/Vector8.svg';
+import Vector9 from '../images/Vector9.svg';
+import Vector10 from '../images/Vector10.svg';
 
 
 

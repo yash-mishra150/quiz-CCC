@@ -35,7 +35,8 @@ const Login = () => {
         
         </div>
         <div className='base'>
-        <div className='head'><img src={Vector13} className='sngup'/></div>
+        <div className='head'><div className='ios'><img src={Vector13} className='sngup'/></div></div>
+        <div className="gwc">Good work champ!</div>
         <div className='form'>
             <div className="scr">
                 <div className="scrr">
@@ -53,7 +54,7 @@ const Login = () => {
             <h5>Total questions</h5><h5>Correct answers</h5><h5>Incorrect answers</h5>
           </div>
           <div className='achieved'>
-          <h5>15</h5><h5>10</h5><h5>5</h5>
+          <h3>15</h3><h3>10</h3><h3>5</h3>
           </div>
        
        
