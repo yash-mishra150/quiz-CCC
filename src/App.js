@@ -1,25 +1,16 @@
-
-
-// import Login from './Components/forms/login';
-// import Login from './Components/forms/login';
-// import Logindone from './Components/forms/logindone';
-import Instruction from './components/forms/instruction';
-// import ForgetPassword from './components/ForgotPassword';
-// import Signup from './Components/forms/signup';
-// import Feedback from './components/forms/feebaack';
-// import Quiz from './components/Quiz';
+import React from 'react'
+// import VerifyOTP from './components/VerifyOTP'
+// import Quiz from './components/Quiz'
+// import MainCard from './components/MainCard'
+// import NewPassword from './components/NewPassword'
+import ForgotPassword from './components/ForgotPassword'
+// import Login from './components/forms/login';
 
 
 function App() {
   return (
-    <div className="App" >
-      
-      <Instruction />
-      
-
-      </div>
+    <ForgotPassword />
   );
 }
 
-export default App;
- 
+export default App
