@@ -1,12 +1,21 @@
-import React from "react";
+import React, {useContext} from "react";
 import Logo from "./images/ImageInBlue.svg";
 import Logo2 from "./images/ImageUpsideDown.svg";
 import MainPage from "./images/MainPage.svg";
 import { Link } from "react-router-dom";
 import MainMobile from "./images/MainPageMobile.svg";
 import Human from "./images/Human3.svg";
+import UserContext from "../context/UserContext";
 
 function VerifyOTP() {
+
+  const {State} = useContext(UserContext)
+  
+
+  const HandleClickFunction = (e) => {
+    e.preventDefault();
+    console.log(State.otp)
+  }
   return (
     <section className="MainOTP">
       <section className="form">
@@ -27,16 +36,13 @@ function VerifyOTP() {
           <form className="VerifyOTP">
             <h4>Enter OTP</h4>
             <div class="input-field">
-              <input type="username" maxLength="1" />
-              <input type="username" maxLength="1" />
-              <input type="username" maxLength="1" />
-              <input type="username" maxLength="1" />
+              <input type="username" maxLength="4" />
             </div>
             <br></br>
-            <Link to="/" className="Link">
+            <Link to="/login/forgotpassword" className="Link">
               Resend OTP
             </Link>
-            <button>Verify OTP</button>
+            <button onClick={HandleClickFunction}>Verify OTP</button>
           </form>
           <div className="line2"></div>
         </div>

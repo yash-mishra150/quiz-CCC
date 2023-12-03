@@ -5,7 +5,7 @@ import bars from "./images/threebars.svg";
 import whitebars from "./images/whitebars.svg";
 import { Link } from "react-router-dom";
 
-function Quiz() {
+function Quiz2() {
   const [ishidden, setIshidden] = useState("container");
   const [iswhitebox, setiswhitebox] = useState("whitebox");
   const [ishuman, setishuman] = useState("Human4");
@@ -86,32 +86,32 @@ function Quiz() {
         </section>
       </div>
       <div className="Question">
-        Q1- The default value of the BORDER attribute is?
+      Q2-Which of the following properties is used to change the font of text?
       </div>
       <div className="option1">
         <input type="radio" name="q1" className="Radio1" value="1" onChange={handleOptionChange}/>
-        1pixel
+            font-family 
       </div>
       <div className="option2">
         <input type="radio" name="q1" className="Radio2" value="2" onChange={handleOptionChange}/>
-        2pixel
+        font-size 
       </div>
       <div className="option3">
         <input type="radio" name="q1" className="Radio3" value="3" onChange={handleOptionChange}/>
-        4pixel
+        text-align 
       </div>
       <div className="option4">
         <input type="radio" name="q1" className="Radio4" value="4" onChange={handleOptionChange}/>
-        8pixel
+        None of the above 
       </div>
 
       <button className="CheckAnswer" onClick={HandleCheckEvent}>
         Check
       </button>
 
-      <Link to="/login/instruction/Quiz2" className="NextQuestion">Next Question -> </Link>
+      <Link to="/login/instruction/Quiz3" className="NextQuestion">Next Question -> </Link>
     </>
   );
 }
 
-export default Quiz;
+export default Quiz2;

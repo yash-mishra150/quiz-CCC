@@ -5,7 +5,7 @@ import bars from "./images/threebars.svg";
 import whitebars from "./images/whitebars.svg";
 import { Link } from "react-router-dom";
 
-function Quiz() {
+function Quiz5() {
   const [ishidden, setIshidden] = useState("container");
   const [iswhitebox, setiswhitebox] = useState("whitebox");
   const [ishuman, setishuman] = useState("Human4");
@@ -41,7 +41,7 @@ function Quiz() {
 
   const HandleCheckEvent = (e) => {
     console.log({selectedOption})
-    if (selectedOption === "1"){
+    if (selectedOption === "3"){
       alert("Correct Answer")
     }else{
       alert("Wroung Answer")
@@ -86,32 +86,32 @@ function Quiz() {
         </section>
       </div>
       <div className="Question">
-        Q1- The default value of the BORDER attribute is?
+      Q5-In how many ways can CSS be written in? 
       </div>
       <div className="option1">
         <input type="radio" name="q1" className="Radio1" value="1" onChange={handleOptionChange}/>
-        1pixel
+        1 
       </div>
       <div className="option2">
         <input type="radio" name="q1" className="Radio2" value="2" onChange={handleOptionChange}/>
-        2pixel
+        2
       </div>
       <div className="option3">
         <input type="radio" name="q1" className="Radio3" value="3" onChange={handleOptionChange}/>
-        4pixel
+        3
       </div>
       <div className="option4">
         <input type="radio" name="q1" className="Radio4" value="4" onChange={handleOptionChange}/>
-        8pixel
+        4
       </div>
 
       <button className="CheckAnswer" onClick={HandleCheckEvent}>
         Check
       </button>
 
-      <Link to="/login/instruction/Quiz2" className="NextQuestion">Next Question -> </Link>
+      <Link to="/" className="EndQuestion">End Quiz</Link>
     </>
   );
 }
 
-export default Quiz;
+export default Quiz5;

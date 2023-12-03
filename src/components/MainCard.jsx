@@ -5,6 +5,14 @@ import MainPage from "./images/MainPage.svg";
 import Human1 from "./images/Human1.svg";
 
 function MainCard() {
+  const HandleActionLogin = (e) => {
+    e.preventDefault();
+    window.location.href = "/login";
+  }
+  const HandleActionSignUp = (e) => {
+    e.preventDefault();
+    window.location.href = "/signup";
+  }
   return (
     <section className="MainLS">
       <section className="form">
@@ -23,14 +31,14 @@ function MainCard() {
           Explore, Discover, Conquer: Where Development Come to Life
         </div>
 
-        <button type="submit" class="btn-primary">
+        <button type="submit" class="btn-primary" onClick={HandleActionLogin}>
           Log in
         </button>
         <section>
           <div className="or"> OR</div>
           <div className="line" />
         </section>
-        <button type="submit" class="btn-secondry">
+        <button type="submit" class="btn-secondry" onClick={HandleActionSignUp}>
           Sign Up
         </button>
         <section>
