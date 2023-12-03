@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 Hi,
-This is our team project on quiz with apis and backendin server folder.
+This is our team project on quiz with apis and backend server folder.
 
 :)
 
