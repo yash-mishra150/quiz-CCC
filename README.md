@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+Hi,
+This is our team project on quiz with apis and backend server folder.
+
+:)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
